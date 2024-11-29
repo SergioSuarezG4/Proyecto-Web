@@ -1,0 +1,33 @@
+.card-planet-description{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card-planet {
+    width: 90%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 13px;
+    transition: all 400ms ease;
+  
+}
+
+.card-body-planet {
+    background-color: #272829b2;
+    padding: 20px;
+    color: white;
+    border-radius: 0 0 13px 13px;
+    height: 230px;
+}
+.image-planet {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: all 400ms ease; 
+    border-radius: 13px 13px 0 0;
+}
+.card-planet:hover{
+    transform: scale(1.06);
+
+}
