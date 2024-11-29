@@ -7,6 +7,4 @@ Proyecto final aplicación web que consume la API de Dragon Ball (https://web.dr
 - **React**: Librería de JavaScript para construir interfaces de usuario.
 - **Tailwind CSS**: Framework CSS para el diseño y estilo de la interfaz.
 - **PostCSS**: Herramienta para el procesamiento de CSS.
-  
-## Estructura del Proyecto
 
