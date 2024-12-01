@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './NavBar.css'
 
 const NavBar = () => {
     return (
@@ -8,7 +9,7 @@ const NavBar = () => {
                 <Link to='/'>
                     <img className="image-nav"src= "https://web.dragonball-api.com/images-compress/android-icon-192x192.webp"alt="" />
                 </Link>
-                <div className="space-x-4">
+                <div className="nav-info space-x-4">
                 <Link className="text-gray-300 hover:text-gray-900" to='/'>Personajes</Link>
                 <Link className="text-gray-300 hover:text-gray-900" to='/planets'>Planetas</Link>
                 </div>

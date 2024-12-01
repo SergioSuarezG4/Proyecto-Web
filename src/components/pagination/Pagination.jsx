@@ -1,4 +1,3 @@
-
 const Pagination = ({infoPage, numberPage, setNumberPage}) => {
 
         const next = () => {

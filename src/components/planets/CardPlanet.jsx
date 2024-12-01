@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Modal from "../modal/Modal";
+import './CardPlanet.css'
 
 const CardPlanet = ({planets}) => {
     return (

@@ -1,8 +1,7 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useModal } from "../../hooks/useModal";
-import Modal from "../modal/Modal";
-
+import Modal from "../modal-character/Modal";
+import './CardCharacter.css'
 
 
 const CardCharacter = ({characters, showButtons = true, showDetails = true}) => {
@@ -44,7 +43,7 @@ const CardCharacter = ({characters, showButtons = true, showDetails = true}) => 
                                 <button className="button-trans mt-4 px-4 py-2 bg-gray-500 text-white rounded-full hover:bg-gray-700 transition-colors">Transformaciones</button>
                             </Link>
                             <button onClick={openModal} className="button-ver mt-4 px-4 py-2 bg-gray-500 text-white rounded-full hover:bg-gray-700 transition-colors">Ver más</button>
-                            <Modal  isVisible={showModal} onClose={closeModal}/>
+                            <Modal  isVisible={showModal} onClose={closeModal} character={characters}/>
                         </div>
                         ) : '' }
                         
